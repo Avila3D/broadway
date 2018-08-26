@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: Helvetica, sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 .title-menu {
@@ -18,9 +18,34 @@ h1 {
   font-size: 18px;
 }
 
-.banner {
+.our-process p, .bottom-menu p{
+  font-size: 14px;
+}
+
+p.banner {
   background-image: url("../images/the-flatiron-building.png");
   color: white;
   font-size: 23px;
   font-weight: bold;
+}
+
+.process-land {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+  font-size: 11px;
+}
+
+.nav {
+  color: white;
 }
